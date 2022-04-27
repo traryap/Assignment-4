@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<title>Israel Adesanya</title>
+<head>
+<style>
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+img{
+  max-width:100%;
+  max-height: 100%;
+}
+/* Israel Adesanya is from Nigeria, whose flag colors are Green and White. The colors of the grid reflect his roots. */
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 10px;
+  background-color: rgb(72, 127, 81);
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+.p1 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.p2 {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+/*Israel Adesanya trains with City Kickboxing in Auckland, New Zealand. The colors that are on their flag are in the same style on my header */
+header {
+  background-color: rgb(4, 16, 121);
+  padding: 30px;
+  text-align: left;
+  font-size: 35px;
+  color: rgb(238, 9, 9);
+  -webkit-text-stroke-width: .5pt;
+  -webkit-text-stroke-color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+h1 {
+  text-align: left;
+  font-size: 18px;
+}
+
+
+</style>
+
+</head>
+<body>
+<header>The Last Style Bender</header>
+<h1>Adesanya was born in Lagos, Nigeria, the eldest of five children. Adesanya attended Chrisland School, Opebi, and enrolled in its Taekwondo after-school club until he was removed by his mother due to an injury. In 1999, he relocated to Ghana with his family for 10 months, but due to his parents wanting their children to receive a well-recognised higher education, he settled in Rotorua, New Zealand, at age 10 and attended Rotorua Boys' High School. Adesanya was not interested in sport during high school; instead he was interested in Japanese anime such as Death Note and Naruto. Adesanya was bullied during his high school years and attributes the mistreatment he experienced to his decision to pursue martial arts later in life.</h1>
+<div class="grid-container">
+  <div class="item1"><img src="skysports-israel-adesanya-mma_5292628.jpg" alt="Izzy kick"></div>
+  <div class="item3"><img src="Belt 1.jpg" alt="Izzy with Belt 2"></div>  
+  <div class="item4"><img src="Belt Headshot.png" alt="Headshot with Belt"></div>
+  <div class="item5"><img src="Israel-Adesanya-UFC-253.jpg" alt="Style Bender"></div>
+</div>
+
+</body>
+</html>
